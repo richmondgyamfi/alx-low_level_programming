@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	int r;
+	int n;
 
 	srand(time(0));
-	r = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	
-	if (r >= 0)
-		printf("%d is positive\n", r);
+	if (n >= 0)
+		printf("%d is positive\n", n);
 	else
-		printf("%d is negative\n", r);
+		printf("%d is negative\n", n);
 	
 	return (0);
 }
