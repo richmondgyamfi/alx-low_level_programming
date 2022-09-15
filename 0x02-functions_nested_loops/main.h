@@ -6,6 +6,6 @@
  * Typedefs
  * Function prototypes
  */
-int _puchar(int c);
+int _putchar(int c);
 
 #endif /* _SAMPLE_HEADER_H_ */
