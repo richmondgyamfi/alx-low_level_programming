@@ -9,7 +9,7 @@
  * Return: 0
  */
 
-int print_times_table(int i)
+void print_times_table(int i)
 {
 	int i = 1;
 	int total = 0;
