@@ -9,9 +9,8 @@
  * Return: 0
  */
 
-void print_times_table(int i)
+void print_times_table(int i = 1)
 {
-	i = 1;
 	int total = 0;
 
 	while (i < 1024)
