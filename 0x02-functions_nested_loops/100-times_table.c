@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int print_times_table(void)
+int main(void)
 {
 	int i = 1;
 	int total = 0;
