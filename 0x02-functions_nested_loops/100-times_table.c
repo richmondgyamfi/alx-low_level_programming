@@ -9,9 +9,10 @@
  * Return: 0
  */
 
-void print_times_table(int i = 1;)
+void print_times_table(int i)
 {
 	int total = 0;
+	i = 1;
 
 	while (i < 1024)
 	{
@@ -24,5 +25,4 @@ void print_times_table(int i = 1;)
 	}
 	printf("%d\n", total);
 
-	return (0);
 }
