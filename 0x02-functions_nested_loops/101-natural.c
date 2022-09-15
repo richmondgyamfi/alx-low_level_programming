@@ -26,4 +26,3 @@ void print_times_table(int i)
         printf("%d\n", total);
 
 }
-
